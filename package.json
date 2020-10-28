@@ -1,5 +1,5 @@
 {
-    "name": "jpush-phonegap-plugin",
+    "name": "ltg-jpush",
     "version": "3.7.6",
     "description": "JPush for cordova plugin",
     "cordova": {

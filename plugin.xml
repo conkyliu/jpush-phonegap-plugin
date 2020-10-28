@@ -105,7 +105,7 @@
             <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
             <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
             <uses-permission android:name="android.permission.GET_TASKS" />
-			
+
 			    <!--华为角标-->
 			<uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE "/>
         </config-file>
@@ -199,7 +199,7 @@
 
             <!-- Required SDK核心功能-->
             <receiver android:name="cn.jpush.android.service.AlarmReceiver" android:exported="false"/>
-			
+
 			 <!-- 3.5.0新增，用于定时展示功能 -->
 			<receiver android:name="cn.jpush.android.service.SchedulerReceiver" android:exported="false"/>
 
@@ -250,8 +250,8 @@
             </receiver>
 
             <!-- Required  . Enable it you can get statistics data with channel -->
-            <meta-data android:name="JPUSH_CHANNEL" android:value="$CHANNEL"/>
-            <meta-data android:name="JPUSH_APPKEY" android:value="$APP_KEY" /> <!--  </>值来自开发者平台取得的AppKey-->
+            <!--<meta-data android:name="JPUSH_CHANNEL" android:value="$CHANNEL"/>
+            <meta-data android:name="JPUSH_APPKEY" android:value="$APP_KEY" />--> <!--  </>值来自开发者平台取得的AppKey-->
 
         </config-file>
 
